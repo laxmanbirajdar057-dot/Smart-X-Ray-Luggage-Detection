@@ -42,7 +42,7 @@
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
-
+    
         <!-- Spring Security -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

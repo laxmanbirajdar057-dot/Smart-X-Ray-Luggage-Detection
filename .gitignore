@@ -1,10 +1,20 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Logs
+*.log
 
-### STS ###
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+
+# Maven
+target/
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / STS
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +23,22 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VS Code
 .vscode/
+
+# Python (AI module)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pt
+*.h5
+
+# Node (if frontend added later)
+node_modules/
