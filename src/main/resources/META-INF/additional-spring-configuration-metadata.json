@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "app.jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'app.jwt.secret'"
+  },
+  {
+    "name": "app.jwt.expiry-hours",
+    "type": "java.lang.String",
+    "description": "A description for 'app.jwt.expiry-hours'"
+  },
+  {
+    "name": "app.admin.password",
+    "type": "java.lang.String",
+    "description": "A description for 'app.admin.password'"
+  },
+  {
+    "name": "app.admin.username",
+    "type": "java.lang.String",
+    "description": "A description for 'app.admin.username'"
+  }
+]}
